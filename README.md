@@ -31,10 +31,6 @@ This refers to meaningful or usefulness property of data. The data can provide m
 This is simply, the inconsistencies in data or how spread out the data is. The data can also be said it is variable if there are so many different types and sources of data.
 #### Veracity: 
 This refers to the accuracy of data / Trust in data that is being used for analysis. If the data is inaccurate/ incomplete then it will be difficult to obtain insights from it.
-
-<img src = "https://github.com/SuryaTejaswi1/Assignment1/assets/144848077/24165321-6305-494a-a8c5-abf106eda071" width ="400"/>
-   
-fig: Characteristics of big data, Source : classroom PPT
                                    
 ## Phases of Big Data analysis (discuss each)
 ### Data Acquistion: 
@@ -52,10 +48,15 @@ This phase is where we understand what the results of our analysis are. Visualiz
 
 ## Challenges in Big Data analysis (discuss each)
 ### Heterogeneity and Incompleteness:
+"Heterogeneous data are any data with high variability of data types and formats. They are possibly ambiguous and low quality due to missing values, high data redundancy, and untruthfulness"[7]. This is huge challenge to aggregate this data to perform further analysis as the machine learning algorithms will give accurate results with homogeneous aggregated data sets. It requires a lot of skill and knowledge from the experts to deal with this type of data and to get accurate insights.
 ### Scale:
+Big data projects face numerous challenges tied to scalability, particularly as experts anticipate exponential data growth. Subsequently, there arises the question of where to store this large data sets. With the increased likelihood of system failures due to the complexities of handling such vast datasets, cloud computing and parallel file systems present flexible solutions. However, organizations must carefully plan their architecture, storage decisions, and parallel computing to optimize cost-effectiveness according to the project's specific requirements.
 ### Timeliness:
-### Privacy:
+In today's world, timeliness has become a crucial factor and a significant challenge due to the prevalence of real-time data from numerous sources. For instance, consider the vast and constantly updating stock market data, where there is a demanding need for instantaneous analysis at every moment. Dealing with this continuous stream of data presents a challenge, especially when trying to single out a specific dataset from the vast pool of big data, and performing accurate cleaning within a short timeframe. Even if we manage to obtain an analysis report, it can become obsolete rapidly if the data changes swiftly. "In a real-time system, the correctness of a computation depends on both the logical correctness of the results, and the time at which the computation completes. The property of completing the computation by a given deadline is referred to as timeliness"[8]. 
+### Privacy: 
+This is the biggest concern that needs to be taken care of by the organisations when collecting data. Because of the IoT everything is connected and there is alot of data being gathered. For example, in the case of smart cities the user geographical or location data is being collected by the sensor devices. This is a privacy concern for the individuals as their home or work addresses will be collected by the organisations, and it is even more a big problem if the locations of government or security agencies are collected. In the era of data leaks and compromises having this type of sensitive information is a huge risk. Secondly, there is another ethical challenge that the organisation might misuse the data. It is the responsibility of both the users and companies to face this challenge.
 ### Human Collaboration:
+In the analysis of big data, human intervention is necessary at every stage. Consider, for example, the data cleaning phase, which is crucial due to the inherent heterogeneity and dynamic nature of source data. During this process, it is imperative to ensure that valuable information is not getting filtered out along with the noise. Throughout the entire data analysis phases, maintaining accuracy, timeliness, security, and resilience in the face of potential system failures remains paramount. This necessitates continuous collaboration with experts at every juncture.
 
 ## References:
 1. M. M. Rathore, S. A. Shah, D. Shukla, E. Bentafat and S. Bakiras, "The Role of AI, 
@@ -67,10 +68,18 @@ This phase is where we understand what the results of our analysis are. Visualiz
 3. Q. Qi and F. Tao, "Digital Twin and Big Data Towards Smart Manufacturing and Industry 
    4.0: 360 Degree Comparison," in IEEE Access, vol. 6, pp. 3585-3593, 2018,
    doi: 10.1109/ACCESS.2018.2793265.
-4. Ridzuan, F., & Zainon, W. M. N. W. (2019). A review on data cleansing methods for big data. Procedia Computer Science, 161, 731–738. https://doi.org/10.1016/j.procs.2019.11.177
-5. Wen, T. (2020). Data Aggregation. In: Schintler, L., McNeely, C. (eds) Encyclopedia of Big Data. Springer, Cham. https://doi.org/10.1007/978-3-319-32001-4_296-1
-6. Zhao, C. (n.d.). Five Phases in the Big Data Processing Pipeline (notes). www.linkedin.com. https://www.linkedin.com/pulse/five-phases-big-data-processing-pipeline-notes-christiane-zhao/
-7. Indicative Analytics. (2021, September 15). What is data variability? Data defined - indicative. Indicative. https://www.indicative.com/resource/data-variability/
-8. GeeksforGeeks. (2021). Big Data Analytics life cycle. GeeksforGeeks. https://www.geeksforgeeks.org/big-data-analytics-life-cycle/
+4. Ridzuan, F., & Zainon, W. M. N. W. (2019). A review on data cleansing methods for big data. Procedia Computer Science, 161, 731–738. 
+   https://doi.org/10.1016/j.procs.2019.11.177
+5. Wen, T. (2020). Data Aggregation. In: Schintler, L., McNeely, C. (eds) Encyclopedia of Big Data. Springer, Cham. 
+   https://doi.org/10.1007/978-3-319-32001-4_296-1
+6. Zhao, C. (n.d.). Five Phases in the Big Data Processing Pipeline (notes). www.linkedin.com. https://www.linkedin.com/pulse/five- 
+   phases-big-data-processing-pipeline-notes-christiane-zhao/
+7. Wang, L. (2017). Heterogeneous data and big data analytics. Automatic Control and Information Sciences, 3(1), 8–15. 
+   https://doi.org/10.12691/acis-3-1-3
+8. Cai, S., Gallina, B., Nyström, D., & Seceleanu, C. (2018). Data aggregation processes: a survey, a taxonomy, and design guidelines. 
+   Computing, 101(10), 1397–1429. https://doi.org/10.1007/s00607-018-0679-5
+9. Indicative Analytics. (2021, September 15). What is data variability? Data defined - indicative. Indicative. 
+   https://www.indicative.com/resource/data-variability/
+10. GeeksforGeeks. (2021). Big Data Analytics life cycle. GeeksforGeeks. https://www.geeksforgeeks.org/big-data-analytics-life-cycle/
 
  
