@@ -33,7 +33,9 @@ This is simply, the inconsistencies in data or how spread out the data is. The d
 This refers to the accuracy of data / Trust in data that is being used for analysis. If the data is inaccurate/ incomplete then it will be difficult to obtain insights from it.
 
 <img src = "https://github.com/SuryaTejaswi1/Assignment1/assets/144848077/24165321-6305-494a-a8c5-abf106eda071" width ="400"/>
-
+   
+fig: Characteristics of big data, Source : classroom PPT
+                                   
 ## Phases of Big Data analysis (discuss each)
 ### Data Acquistion: 
 As per the business requirements,data can be collected from various sources(sensors, websites, social media, databases). These sources may generate data in a variety of formats, such as structured (relational databases, Excel files), semi-structured (JSON, XML), and unstructured (text, photos, and videos). The primary challenge in data acquisition is the need to filter the collected data, which involves the removal of unwanted information. Unwanted data can take the form of duplicates, irrelevant information, or noise. It is of utmost importance to use the appropriate set of filters, as incorrect filtering could result in the loss of valuable data.
@@ -47,6 +49,14 @@ Data Representation refers to the different ways in which the same data can be v
 The steps involved in data analysis for big data differs when compared to traditional data sets. In the smaller data sets by using querying for example, using SQL we can obtain information. But, this is not in the case of big data as the data is more complex."Big Data is noisy, dynamic, heterogeneous, inter-related and untrustworthy. But even noisy Big Data can be valuable, as reliable hidden patterns and knowledge can be disclosed. It also avoid from overpower individual fluctuations and other small sampling biases."[6]
 ### Interpretation:
 This phase is where we understand what the results of our analysis are. Visualizing the data can be a big help in making it easier to understand and share but, it's more than just showing the data through visualisations. When interpreting data, we don't just describe what the data shows, we should also think about what it might mean for the business.With the information like where the data came from, how we got each result, and what specific information we used, we can more valuable insights from the data. 
+
+## Challenges in Big Data analysis (discuss each)
+### Heterogeneity and Incompleteness:
+### Scale:
+### Timeliness:
+### Privacy:
+### Human Collaboration:
+
 ## References:
 1. M. M. Rathore, S. A. Shah, D. Shukla, E. Bentafat and S. Bakiras, "The Role of AI, 
    Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, 
